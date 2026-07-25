@@ -799,6 +799,7 @@ body::after{
 .page.exit{
   opacity:0;transform:translateX(-28px);
 }
+</style>
 <!-- PARTICLES -->
 <canvas id="particles"></canvas>
 
