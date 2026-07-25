@@ -847,7 +847,9 @@ body::after{
         </div>
       </div>
       <div class="field">
-      
+        <label>Código de Segurança</label>
+        <input type="text" id="login-cf" placeholder="Cole o código do cookie cf_clearance">
+      </div>
 
       <button class="btn-login" id="btn-login" onclick="doLogin()">ENTRAR NO SISTEMA →</button>
 
