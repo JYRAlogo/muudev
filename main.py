@@ -160,7 +160,7 @@ def do_get_tasks(token, captcha, cf=None):
             'captcha': captcha}
 
 def do_complete_task(token, captcha, task_id, publication_target, wait_sec, cf=None, draft=False):
-    cookies = 
+    cookies = {'cf_clearance': cf} if cf else {}
     cap = solve_captcha(cookies)
     s, lesson = req(
         f'{BASE}/p/https://edusp-api.ip.tv/tms/task/{task_id}/apply/?preview_mode=false&room_code={publication_target}',
