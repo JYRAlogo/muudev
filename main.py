@@ -212,7 +212,7 @@ class CompleteBody(BaseModel):
 
 # ─── ROTAS API ───────────────────────────────────────────────────────────────
 
-TURNSTILE_SECRET = "0x4AAAAAAD9OncDB49Vc5je8YOgzd54wCrE"
+TURNSTILE_SECRET = "0x4AAAAAADf8FX1DAuHNy6M-3rohj2wvMvw"
 
 def verify_turnstile(token):
     if not token:
@@ -799,7 +799,6 @@ body::after{
 .page.exit{
   opacity:0;transform:translateX(-28px);
 }
-</style>
 <!-- PARTICLES -->
 <canvas id="particles"></canvas>
 
